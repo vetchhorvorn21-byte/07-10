@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kantumruy Pro', system-ui, -apple-system, sans-serif;
+}
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.container {
+  width: 100%;
+  max-width: 440px;
+}
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+.card-header {
+  background: linear-gradient(135deg, #1e3a8a, #0284c7);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.logo-badge {
+  background: #ffffff;
+  color: #1e3a8a;
+  font-weight: 800;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  letter-spacing: 1px;
+}
+.header-text h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.header-text p {
+  font-size: 11px;
+  opacity: 0.85;
+}
+.card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid #60a5fa;
+  object-fit: cover;
+}
+.primary-info h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.en-sub {
+  font-size: 12px;
+  color: #94a3b8;
+}
+.id-badge {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 8px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  font-size: 11px;
+  color: #38bdf8;
+  font-family: monospace;
+}
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  background: #0f172a;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.label {
+  font-size: 11px;
+  color: #94a3b8;
+}
+.value {
+  font-size: 13px;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+.value.highlight {
+  color: #34d399;
+}
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tag-badge {
+  background: #334155;
+  color: #cbd5e1;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.status-bar {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}

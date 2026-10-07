@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Student ID Card Generator</title>
+
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card">
+
+      <div class="card-header">
+
+        <div class="logo-badge">BBU</div>
+
+        <div class="header-text">
+          <h1>ប័ណ្ណសម្គាល់ខ្លួននិស្សិត</h1>
+          <p>Build Bright University of Phnom Penh</p>
+        </div>
+
+      </div>
+
+
+      <div class="card-body">
+
+        <div class="profile-section">
+
+          <div class="avatar" id="student-avatar">
+            <img src="1.jpg">
+          </div>
+
+          <div class="primary-info">
+
+            <h2 id="student-kh-name">...</h2>
+
+            <p id="student-en-name" class="en-sub">
+              ...
+            </p>
+
+            <span class="id-badge" id="student-id-display">
+              ID: ...
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="info-grid">
+
+          <div class="info-item">
+            <span class="label">ឆ្នាំកំណើត:</span>
+            <span class="value" id="val-birth-year">...</span>
+          </div>
+
+
+          <div class="info-item">
+            <span class="label">អាយុគណនា:</span>
+            <span class="value highlight" id="val-calculated-age">
+              ...
+            </span>
+          </div>
+
+
+          <div class="info-item">
+            <span class="label">តម្លៃសិក្សាដើម:</span>
+            <span class="value" id="val-base-tuition">
+              ...
+            </span>
+          </div>
+
+
+          <div class="info-item">
+            <span class="label">ថ្លៃសិក្សាជាក់ស្តែង:</span>
+            <span class="value highlight" id="val-final-tuition">
+              ...
+            </span>
+          </div>
+
+        </div>
+
+
+        <div class="skills-section">
+
+          <span class="label">
+            ជំនាញបច្ចេកទេស:
+          </span>
+
+          <div class="tags" id="skills-container"></div>
+
+        </div>
+
+
+        <div class="status-bar" id="enrollment-status">
+          ស្ថានភាពចុះឈ្មោះ: កំពុងពិនិត្យ...
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Connect JavaScript -->
+  <script src="app.js"></script>
+
+</body>
+</html>
